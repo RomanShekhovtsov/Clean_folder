@@ -82,7 +82,9 @@ def remove_empty_folders(folder_path):
 
 
 if __name__ == "__main__":
-    print(argv)
+
+
+def run():
     folder_name = argv[1]
     main = folder_name
     create_folders_from_list(main, extensions)
